@@ -98,7 +98,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         adapter.addFragment(new SimpleListFragment(), "Long tab 333");
         adapter.addFragment(new SimpleListFragment(), "Tab 444");
         adapter.addFragment(new SimpleListFragment(), "Tab 555");
-        adapter.addFragment(new SimpleListFragment(), "Tab 666");
+        adapter.addFragment(new SimpleListFragment(), "Tab 6");
         adapter.addFragment(new SimpleListFragment(), "Tab 777");
         _viewPager.setAdapter(adapter);
     }
