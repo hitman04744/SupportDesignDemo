@@ -1,10 +1,8 @@
 package com.example.d_rom.supportdesigndemo;
 
-import android.content.Context;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -37,7 +35,7 @@ public class SimpleListFragment extends Fragment {
 
     private List<String> getDummyData() {
         final List<String> list = new ArrayList<>();
-        for(int i = 0; i < 50; i++){
+        for(int i = 0; i < 40; i++){
             list.add("List Item " + i);
         }
         return list;
